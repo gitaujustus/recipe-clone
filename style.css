@@ -1,0 +1,73 @@
+/* Setting margin for the entire body to create spacing */
+body{
+    margin: 30px;
+}
+
+/* Styling for the hero section */
+#hero-section{
+    width: 100%; /* Setting width to cover the entire width of its container */
+    height: 80vh; /* Setting height to occupy 80% of the viewport height */
+    border-radius: 10px; /* Adding rounded corners */
+    background-image: url('/images/image-omelette.jpeg'); /* Setting background image */
+    background-repeat: no-repeat; /* Preventing background image from repeating */
+    background-size: cover; /* Ensuring background image covers the entire section */
+}
+
+/* Styling for the recipe title */
+#recipe-title{
+    font-size: 40px; /* Setting font size for the recipe title */
+}
+
+/* Styling for the preparation time division */
+#preparation-time{
+    padding: 10px; /* Adding padding for spacing */
+    background: #F3E5D8; /* Setting background color */
+    border-radius: 10px; /* Adding rounded corners */
+}
+
+/* Styling for the heading within the preparation time division */
+#preparation-time h2{
+    color: #7D3A58; /* Setting text color */
+}
+
+/* Styling for the titles within various sections */
+#div-titles{
+    color: #7F4E3D; /* Setting text color */
+    font-size: 30px; /* Setting font size for section titles */
+}
+
+/* Styling for the table */
+table {
+    border-spacing: 0 15px; /* Setting space between table cells */
+    width: 100%; /* Ensuring the table occupies the entire width */
+}
+
+/* Styling for table cells */
+td {
+    padding: 7px; /* Adding padding for spacing within cells */
+    border-bottom: 1px solid #E1E1E1; /* Adding bottom border for separation */
+}
+
+/* Media Query for responsiveness */
+/* This is used in styling smaller screens like phones */
+@media screen and (max-width: 768px) {
+    /* Adjusting body margin for smaller screens */
+    body{
+        margin: 10px;
+    }
+
+    /* Adjusting hero section height for smaller screens */
+    #hero-section {
+        height: 30vh;
+    }
+
+    /* Reducing font size of section titles for smaller screens */
+    #div-titles {
+        font-size: 20px;
+    }
+
+    /* Adjusting padding within table cells for smaller screens */
+    td {
+        padding: 8px;
+    }
+}
